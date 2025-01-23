@@ -16,6 +16,7 @@ lang = 'en' # Field 'description' wil be translated 'pl'
 # date =2025-1-22 #Date for which summary is generated in the format YYYY-MM-DD
 # weather_overview - AI generated weather overview for the requested date
 
+API_KEY=os.environ["api_key"]
 api_url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&APPID={API_KEY}&units={units}&lang={lang}'
 
 try:
