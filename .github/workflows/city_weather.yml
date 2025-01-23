@@ -7,6 +7,9 @@ on:
     # - cron: "*/5 * * * *" # run every day at every 5 min (15min in real)
   workflow_dispatch:  # manual triggers
 
+env:
+  api_key:${{ secrets.API_KEY }}
+
 jobs:
   run-city-weather:
     runs-on: ubuntu-latest
