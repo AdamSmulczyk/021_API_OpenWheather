@@ -8,10 +8,7 @@ import pandas as pd
 import json
 import requests
 import os 
-import polars as pl
-from dotenv import load_dotenv
-from datetime import datetime
-import base64
+
 
 city_name = 'Warsaw'
 units = 'metric' # C 'metrics',  F 'imperial', K 'standartd' default
