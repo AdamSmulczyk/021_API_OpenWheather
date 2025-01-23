@@ -8,7 +8,7 @@ import pandas as pd
 import json
 import requests
 import os 
-
+import polars as pl
 
 city_name = 'Warsaw'
 units = 'metric' # C 'metrics',  F 'imperial', K 'standartd' default
