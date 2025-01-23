@@ -18,8 +18,8 @@ units = 'metric' # C 'metrics',  F 'imperial', K 'standartd' default
 lang = 'en' # Field 'description' wil be translated 'pl'
 # date =2025-1-22 #Date for which summary is generated in the format YYYY-MM-DD
 # weather_overview - AI generated weather overview for the requested date
-api_key = 'e4bdbda3f1871fe8b7ebffc46c9f7db6'
-api_url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&APPID={api_key}&units={units}&lang={lang}'
+
+api_url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&APPID={API_KEY}&units={units}&lang={lang}'
 
 try:
     response = requests.get(api_url)
