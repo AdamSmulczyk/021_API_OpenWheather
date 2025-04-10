@@ -63,7 +63,7 @@ City_weather= City_weather.rename(columns={'name': 'City_Name',
 # City_weather['Date'] = datetime.today()
 City_weather['Timestamp'] = pd.to_datetime('now')
 
-if not os.path.isfile(r'data/city_weather.csv'):
-    City_weather.to_csv(r'data/city_weather.csv', index=False, header='column_names')
+if not os.path.isfile(r'data/city_weather_2.csv'):
+    City_weather.to_csv(r'data/city_weather_2.csv', index=False, header='column_names')
 else:
-    City_weather.to_csv(r'data/city_weather.csv', mode='a', index=False,  header=False)
+    City_weather.to_csv(r'data/city_weather_2.csv', mode='a', index=False,  header=False)
