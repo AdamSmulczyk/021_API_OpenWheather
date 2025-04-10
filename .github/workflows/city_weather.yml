@@ -1,4 +1,4 @@
-name: city-weather-workflow
+name: city-weather-workflow_2
 
 on:
   # push: # uncomment to run on push
