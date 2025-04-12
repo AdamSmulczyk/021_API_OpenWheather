@@ -1,3 +1,4 @@
 City_Name,City_Cod,Longitude,Latitude,Temperature_Celsius,Temperature_Feels_Like,Temperature_Min,Temperature_Max,Pressure,Humidity,Wind_Speed,Timezone,Clouds,Visibility,Timestamp
 Warsaw,200,21.0118,52.2298,4.15,-1.01,2.88,5.44,1018,50,8.23,7200,75,10000,2025-04-10 09:08:36.020152
 Warsaw,200,21.0118,52.2298,3.13,1.12,2.62,4.24,1007,74,2.06,7200,75,10000,2025-04-11 02:14:37.889882
+Warsaw,200,21.0118,52.2298,2.53,-0.91,1.62,3.8,1014,90,3.6,7200,0,10000,2025-04-12 02:11:06.414172
