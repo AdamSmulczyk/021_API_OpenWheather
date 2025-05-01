@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[21]:
+# In[21]
 
 import pandas as pd
 import json
